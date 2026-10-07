@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual | TECNO 2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../static/css/boots.css">
+</head>
+<body>
+<!-- MENÚ DE NAVEGACIÓN -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">Vitalis</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="multimedia.html">Multimedia</a></li>
+        <li class="nav-item"><a class="nav-link active" href="manual.html">Manual</a></li>
+        <li class="nav-item"><a class="nav-link" href="../index.html#contacto">Contáctenos</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="cuenta" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tu cuenta</a>
+          <ul class="dropdown-menu" aria-labelledby="cuenta">
+            <li><a class="dropdown-item" href="login.html">Iniciar sesión</a></li>
+            <li><a class="dropdown-item" href="registro.html">Registro</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" action="productos.html">
+        <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Buscar">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <h1 class="mb-4">Manual técnico y de usuario</h1>
+  <h2 class="h3">1. Manual técnico</h2>
+  <ul>
+    <li><strong>Tecnologías:</strong> HTML5, CSS3, Bootstrap 5.0.2 (CDN), Bootstrap Icons, Font Awesome 6.</li>
+    <li><strong>Editor:</strong> Visual Studio Code con la extensión Live Server (puerto 5501).</li>
+    <li><strong>Control de versiones:</strong> Git y GitHub. <strong>Hosting:</strong> GitHub Pages.</li>
+  </ul>
+  <h3 class="h5">Estructura de carpetas</h3>
+  <pre class="bg-light p-3 rounded">tecno2026/
+├── index.html
+├── pages/  (productos, login, registro, multimedia, manual)
+├── static/
+│   ├── css/boots.css
+│   ├── img/
+│   └── video/speech.mp4
+├── docs/   (guion del video, capturas)
+├── .vscode/settings.json
+└── README.md</pre>
+  <h2 class="h3 mt-4">2. Manual de usuario</h2>
+  <ol>
+    <li><strong>Navegar:</strong> use el menú superior para ir a Inicio, Productos, Multimedia, Manual y Contacto.</li>
+    <li><strong>Ver productos:</strong> en Productos encuentra el catálogo con precios y una tabla comparativa.</li>
+    <li><strong>Crear cuenta:</strong> Tu cuenta &rarr; Registro. Complete el formulario y acepte los términos.</li>
+    <li><strong>Iniciar sesión:</strong> Tu cuenta &rarr; Iniciar sesión con correo y contraseña.</li>
+    <li><strong>Contactar:</strong> en Inicio, sección Contáctenos, envíe su mensaje.</li>
+  </ol>
+  <h2 class="h3 mt-4">3. Publicación</h2>
+  <p>Repositorio GitHub: <em>pega aquí tu enlace</em>. Sitio publicado: <em>pega aquí el enlace de GitHub Pages</em>.</p>
+</div>
+<!-- FOOTER -->
+<footer class="bg-dark">
+    <p class="mb-2">&copy; Todos los derechos reservados &middot; Mendieta 2026</p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.threads.com/" target="_blank" rel="noopener" aria-label="Threads"><i class="fa-brands fa-threads"></i></a>
+        <a href="https://x.com/" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-square-x-twitter"></i></a>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | TECNO 2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="static/css/boots.css">
+</head>
+<body>
+<!-- MENÚ DE NAVEGACIÓN -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Vitalis</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="pages/productos.html">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="pages/multimedia.html">Multimedia</a></li>
+        <li class="nav-item"><a class="nav-link" href="pages/manual.html">Manual</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contáctenos</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="cuenta" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tu cuenta</a>
+          <ul class="dropdown-menu" aria-labelledby="cuenta">
+            <li><a class="dropdown-item" href="pages/login.html">Iniciar sesión</a></li>
+            <li><a class="dropdown-item" href="pages/registro.html">Registro</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" action="pages/productos.html">
+        <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Buscar">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- SECCIÓN CARRUSEL -->
+<div id="carrusel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositiva 1"></button>
+    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" aria-label="Diapositiva 2"></button>
+    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" aria-label="Diapositiva 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active"><img src="https://vitalislaboratorio.com/wp-content/uploads/Vitalis-contactanos-1024x627.jpg" class="d-block w-100" alt="Laboratorio Vitalis"></div>
+    <div class="carousel-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ36zTpMRGQSLCWT947IT5dtufXqHH7RPGYCVxBe73ST78HY3dq422lo1M&s=10" class="d-block w-100" alt="Productos Vitalis"></div>
+    <div class="carousel-item"><img src="https://i0.wp.com/www.halconesypalomas.com/wp-content/uploads/2021/06/Vitalis.jpg?fit=520%2C364&ssl=1" class="d-block w-100" alt="Vitalis"></div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
+</div>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="py-5 bg-info">
+    <div class="container">
+        <h2 class="text-center mb-4">NUESTROS SERVICIOS</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQHTPO8TZP0CSLPwiUu0MeNnL76I7GfffTZ0-2D4VVaR0IZMusPTYiZbO&s=10" class="card-img-top" alt="Cremas">
+                    <div class="card-body">
+                        <h5 class="card-title">Cremas</h5>
+                        <p class="card-text">Clobetasol Vitalis en su mejor presentación.</p>
+                        <a href="pages/productos.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnDHp_JNdSKgHoH08CxQf262wZUa5BGovrRuT8sW2GRA&s=10" class="card-img-top" alt="Atención médica">
+                    <div class="card-body">
+                        <h5 class="card-title">Atención médica</h5>
+                        <p class="card-text">Atención médica general 24/7.</p>
+                        <a href="pages/productos.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://saluti.com.co/cdn/shop/files/clotrimazol-1-crema-topica-40g-vitalis-detalle-tubo..png?v=1777994491&width=1254" class="card-img-top" alt="Clotrimazol">
+                    <div class="card-body">
+                        <h5 class="card-title">Clotrimazol</h5>
+                        <p class="card-text">Cremas de clotrimazol Vitalis.</p>
+                        <a href="pages/productos.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- OFERTAS / CATÁLOGO RESUMIDO -->
+<div class="container my-5" id="ofertas">
+    <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3">
+        <div><h2 class="fw-bold mb-0">Ofertas relámpago</h2><p class="text-muted mb-0">Descuentos por tiempo limitado</p></div>
+        <a href="pages/productos.html" class="btn btn-outline-primary btn-sm rounded-pill px-3">Ver catálogo completo</a>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <span class="badge bg-danger badge-descuento rounded-pill">-25% OFF</span>
+                <img src="https://saluti.com.co/cdn/shop/files/crema-antiinflamatoria-vitalis-clotrimazol-neomicina-20g.webp?v=1773956620" class="card-img-top p-3 rounded-4" alt="Crema antiinflamatoria 20 g">
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted small fw-bold mb-1">Cremas</span>
+                    <h5 class="card-title fw-bold mb-2">Crema antiinflamatoria 20 g</h5>
+                    <p class="card-text text-muted small flex-grow-1">Crema antiinflamatoria Vitalis 20 g.</p>
+                    <div class="mb-3"><span class="precio-anterior d-block">$90.000</span><span class="precio-actual">$22.500</span></div>
+                    <button class="btn btn-primary w-100 fw-bold" type="button"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <span class="badge bg-warning text-dark badge-descuento rounded-pill">-15% OFF</span>
+                <img src="https://drogassys.com/images/items_image/32192.jpg" class="card-img-top p-3 rounded-4" alt="Ceftriaxona 1 g (caja x 1 amp.)">
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted small fw-bold mb-1">Medicamento formulado</span>
+                    <h5 class="card-title fw-bold mb-2">Ceftriaxona 1 g (caja x 1 amp.)</h5>
+                    <p class="card-text text-muted small flex-grow-1">Venta con fórmula médica. No se automedique.</p>
+                    <div class="mb-3"><span class="precio-anterior d-block">$140.000</span><span class="precio-actual">$119.000</span></div>
+                    <button class="btn btn-primary w-100 fw-bold" type="button"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <span class="badge bg-danger badge-descuento rounded-pill">-20% OFF</span>
+                <img src="https://cdnx.jumpseller.com/distribuciones-elite/image/76267283/resize/693/693?1777735826" class="card-img-top p-3 rounded-4" alt="Vitalvision 5 mg/ml gotas 15 ml">
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted small fw-bold mb-1">Gotas para ojos</span>
+                    <h5 class="card-title fw-bold mb-2">Vitalvision 5 mg/ml gotas 15 ml</h5>
+                    <p class="card-text text-muted small flex-grow-1">Lágrimas artificiales que lubrican y humectan la superficie ocular.</p>
+                    <div class="mb-3"><span class="precio-anterior d-block">$80.000</span><span class="precio-actual">$64.000</span></div>
+                    <button class="btn btn-primary w-100 fw-bold" type="button"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- TESTIMONIOS -->
+<section id="testimonios" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">TESTIMONIOS</h2>
+        <div class="row">
+            <div class="col-md-4"><div class="testimonial"><p>“Encontré lo que necesitaba y la entrega fue rápida.”</p><strong>Cliente 1</strong></div></div>
+            <div class="col-md-4"><div class="testimonial"><p>“Buena atención y precios claros.”</p><strong>Cliente 2</strong></div></div>
+            <div class="col-md-4"><div class="testimonial"><p>“El catálogo es fácil de consultar.”</p><strong>Cliente 3</strong></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- MARCAS (marquesina) -->
+<section class="bg-white py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">NUESTROS PRODUCTOS DESTACADOS</h2>
+        <div class="marquee"><div class="marquee-content d-flex align-items-center"><img src="https://saluti.com.co/cdn/shop/files/crema-antiinflamatoria-vitalis-clotrimazol-neomicina-20g.webp?v=1773956620" alt="Producto Vitalis" class="mx-4"><img src="https://drogassys.com/images/items_image/32192.jpg" alt="Producto Vitalis" class="mx-4"><img src="https://cdnx.jumpseller.com/distribuciones-elite/image/76267283/resize/693/693?1777735826" alt="Producto Vitalis" class="mx-4"><img src="https://saluti.com.co/cdn/shop/files/clotrimazol-1-crema-topica-40g-vitalis-detalle-tubo..png?v=1777994491&width=1254" alt="Producto Vitalis" class="mx-4"><img src="https://ecofarma.co/wp-content/uploads/2024/11/DEXAMETASONA-4MG-1ML-CX-100-AMP-VITALIS-1.jpg" alt="Producto Vitalis" class="mx-4"><img src="https://www.farmaceuticaandina.com/uploads/productos/m30_PENICILINA_BENZIATICA_1.200.000_X_10_VITALIS_FARMACEUTICA_ANDINA_2025.jpg" alt="Producto Vitalis" class="mx-4"><img src="https://saluti.com.co/cdn/shop/files/crema-antiinflamatoria-vitalis-clotrimazol-neomicina-20g.webp?v=1773956620" alt="Producto Vitalis" class="mx-4"><img src="https://drogassys.com/images/items_image/32192.jpg" alt="Producto Vitalis" class="mx-4"><img src="https://cdnx.jumpseller.com/distribuciones-elite/image/76267283/resize/693/693?1777735826" alt="Producto Vitalis" class="mx-4"><img src="https://saluti.com.co/cdn/shop/files/clotrimazol-1-crema-topica-40g-vitalis-detalle-tubo..png?v=1777994491&width=1254" alt="Producto Vitalis" class="mx-4"><img src="https://ecofarma.co/wp-content/uploads/2024/11/DEXAMETASONA-4MG-1ML-CX-100-AMP-VITALIS-1.jpg" alt="Producto Vitalis" class="mx-4"><img src="https://www.farmaceuticaandina.com/uploads/productos/m30_PENICILINA_BENZIATICA_1.200.000_X_10_VITALIS_FARMACEUTICA_ANDINA_2025.jpg" alt="Producto Vitalis" class="mx-4"></div></div>
+    </div>
+</section>
+
+<!-- CONTACTO Y MAPA -->
+<section id="contacto" class="bg-info py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">CONTÁCTENOS</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4"><form action="#" method="post" id="formContacto">
+    <div class="mb-3"><label for="cNombre" class="form-label">Nombre:</label>
+        <input type="text" name="nombre" id="cNombre" class="form-control" required></div>
+    <div class="mb-3"><label for="cCorreo" class="form-label">Correo:</label>
+        <input type="email" name="correo" id="cCorreo" class="form-control" required></div>
+    <div class="mb-3"><label for="cAsunto" class="form-label">Asunto:</label>
+        <select name="asunto" id="cAsunto" class="form-select">
+            <option>Consulta de productos</option><option>Atención médica</option><option>Reclamo o sugerencia</option></select></div>
+    <div class="mb-3"><label for="cMensaje" class="form-label">Mensaje:</label>
+        <textarea name="mensaje" id="cMensaje" rows="6" class="form-control" required></textarea></div>
+    <button type="submit" class="btn btn-dark">Enviar mensaje</button>
+</form></div>
+            <div class="col-md-6">
+                <h5 class="mb-3">Nuestra ubicación</h5>
+                <iframe title="Mapa de ubicación" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127252.77508412239!2d-74.10645226642399!3d4.656489506923271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bd13c9e9933%3A0x4ddb3c073522dc02!2sVitalis%20SACI!5e0!3m2!1ses-419!2sco!4v1791336252099!5m2!1ses-419!2sco" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FOOTER -->
+<footer class="bg-dark">
+    <p class="mb-2">&copy; Todos los derechos reservados &middot; Mendieta 2026</p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.threads.com/" target="_blank" rel="noopener" aria-label="Threads"><i class="fa-brands fa-threads"></i></a>
+        <a href="https://x.com/" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-square-x-twitter"></i></a>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

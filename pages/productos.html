@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos | TECNO 2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../static/css/boots.css">
+</head>
+<body>
+<!-- MENÚ DE NAVEGACIÓN -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">Vitalis</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link active" href="productos.html">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="multimedia.html">Multimedia</a></li>
+        <li class="nav-item"><a class="nav-link" href="manual.html">Manual</a></li>
+        <li class="nav-item"><a class="nav-link" href="../index.html#contacto">Contáctenos</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="cuenta" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tu cuenta</a>
+          <ul class="dropdown-menu" aria-labelledby="cuenta">
+            <li><a class="dropdown-item" href="login.html">Iniciar sesión</a></li>
+            <li><a class="dropdown-item" href="registro.html">Registro</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" action="productos.html">
+        <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Buscar">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5">
+    <h1 class="mb-1">Catálogo de productos</h1>
+    <p class="text-muted mb-4">Productos Vitalis con precios actualizados.</p>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <span class="badge bg-danger badge-descuento rounded-pill">-25% OFF</span>
+                <img src="https://saluti.com.co/cdn/shop/files/crema-antiinflamatoria-vitalis-clotrimazol-neomicina-20g.webp?v=1773956620" class="card-img-top p-3 rounded-4" alt="Crema antiinflamatoria 20 g">
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted small fw-bold mb-1">Cremas</span>
+                    <h5 class="card-title fw-bold mb-2">Crema antiinflamatoria 20 g</h5>
+                    <p class="card-text text-muted small flex-grow-1">Crema antiinflamatoria Vitalis 20 g.</p>
+                    <div class="mb-3"><span class="precio-anterior d-block">$90.000</span><span class="precio-actual">$22.500</span></div>
+                    <button class="btn btn-primary w-100 fw-bold" type="button"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <span class="badge bg-warning text-dark badge-descuento rounded-pill">-15% OFF</span>
+                <img src="https://drogassys.com/images/items_image/32192.jpg" class="card-img-top p-3 rounded-4" alt="Ceftriaxona 1 g (caja x 1 amp.)">
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted small fw-bold mb-1">Medicamento formulado</span>
+                    <h5 class="card-title fw-bold mb-2">Ceftriaxona 1 g (caja x 1 amp.)</h5>
+                    <p class="card-text text-muted small flex-grow-1">Venta con fórmula médica. No se automedique.</p>
+                    <div class="mb-3"><span class="precio-anterior d-block">$140.000</span><span class="precio-actual">$119.000</span></div>
+                    <button class="btn btn-primary w-100 fw-bold" type="button"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <span class="badge bg-danger badge-descuento rounded-pill">-20% OFF</span>
+                <img src="https://cdnx.jumpseller.com/distribuciones-elite/image/76267283/resize/693/693?1777735826" class="card-img-top p-3 rounded-4" alt="Vitalvision 5 mg/ml gotas 15 ml">
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted small fw-bold mb-1">Gotas para ojos</span>
+                    <h5 class="card-title fw-bold mb-2">Vitalvision 5 mg/ml gotas 15 ml</h5>
+                    <p class="card-text text-muted small flex-grow-1">Lágrimas artificiales que lubrican y humectan la superficie ocular.</p>
+                    <div class="mb-3"><span class="precio-anterior d-block">$80.000</span><span class="precio-actual">$64.000</span></div>
+                    <button class="btn btn-primary w-100 fw-bold" type="button"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <span class="badge bg-danger badge-descuento rounded-pill">-20% OFF</span>
+                <img src="https://saluti.com.co/cdn/shop/files/clotrimazol-1-crema-topica-40g-vitalis-detalle-tubo..png?v=1777994491&width=1254" class="card-img-top p-3 rounded-4" alt="Clotrimazol crema tópica 40 g">
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted small fw-bold mb-1">Cremas</span>
+                    <h5 class="card-title fw-bold mb-2">Clotrimazol crema tópica 40 g</h5>
+                    <p class="card-text text-muted small flex-grow-1">Crema tópica de clotrimazol Vitalis.</p>
+                    <div class="mb-3"><span class="precio-anterior d-block">$30.000</span><span class="precio-actual">$24.000</span></div>
+                    <button class="btn btn-primary w-100 fw-bold" type="button"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <span class="badge bg-warning text-dark badge-descuento rounded-pill">-15% OFF</span>
+                <img src="https://ecofarma.co/wp-content/uploads/2024/11/DEXAMETASONA-4MG-1ML-CX-100-AMP-VITALIS-1.jpg" class="card-img-top p-3 rounded-4" alt="Dexametasona 4 mg/ml x 100 amp.">
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted small fw-bold mb-1">Medicamento formulado</span>
+                    <h5 class="card-title fw-bold mb-2">Dexametasona 4 mg/ml x 100 amp.</h5>
+                    <p class="card-text text-muted small flex-grow-1">Venta con fórmula médica. Consulte a su médico.</p>
+                    <div class="mb-3"><span class="precio-anterior d-block">$200.000</span><span class="precio-actual">$170.000</span></div>
+                    <button class="btn btn-primary w-100 fw-bold" type="button"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <span class="badge bg-warning text-dark badge-descuento rounded-pill">-15% OFF</span>
+                <img src="https://www.farmaceuticaandina.com/uploads/productos/m30_PENICILINA_BENZIATICA_1.200.000_X_10_VITALIS_FARMACEUTICA_ANDINA_2025.jpg" class="card-img-top p-3 rounded-4" alt="Penicilina benzatínica 1.200.000 UI">
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted small fw-bold mb-1">Medicamento formulado</span>
+                    <h5 class="card-title fw-bold mb-2">Penicilina benzatínica 1.200.000 UI</h5>
+                    <p class="card-text text-muted small flex-grow-1">Venta con fórmula médica. Consulte a su médico.</p>
+                    <div class="mb-3"><span class="precio-anterior d-block">$120.000</span><span class="precio-actual">$102.000</span></div>
+                    <button class="btn btn-primary w-100 fw-bold" type="button"><i class="bi bi-cart-plus"></i> Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="h4">Tabla comparativa de precios</h2>
+    <div class="table-responsive">
+    <table class="table table-striped table-hover align-middle">
+        <thead class="table-dark"><tr><th>Producto</th><th>Categoría</th><th>Precio anterior</th><th>Precio actual</th><th>Descuento</th></tr></thead>
+        <tbody>
+            <tr><td>Crema antiinflamatoria 20 g</td><td>Cremas</td><td>$90.000</td><td>$22.500</td><td>-25%</td></tr>
+            <tr><td>Ceftriaxona 1 g (caja x 1 amp.)</td><td>Medicamento formulado</td><td>$140.000</td><td>$119.000</td><td>-15%</td></tr>
+            <tr><td>Vitalvision 5 mg/ml gotas 15 ml</td><td>Gotas para ojos</td><td>$80.000</td><td>$64.000</td><td>-20%</td></tr>
+            <tr><td>Clotrimazol crema tópica 40 g</td><td>Cremas</td><td>$30.000</td><td>$24.000</td><td>-20%</td></tr>
+            <tr><td>Dexametasona 4 mg/ml x 100 amp.</td><td>Medicamento formulado</td><td>$200.000</td><td>$170.000</td><td>-15%</td></tr>
+            <tr><td>Penicilina benzatínica 1.200.000 UI</td><td>Medicamento formulado</td><td>$120.000</td><td>$102.000</td><td>-15%</td></tr>
+        </tbody>
+    </table>
+    </div>
+</div>
+<!-- FOOTER -->
+<footer class="bg-dark">
+    <p class="mb-2">&copy; Todos los derechos reservados &middot; Mendieta 2026</p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.threads.com/" target="_blank" rel="noopener" aria-label="Threads"><i class="fa-brands fa-threads"></i></a>
+        <a href="https://x.com/" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-square-x-twitter"></i></a>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

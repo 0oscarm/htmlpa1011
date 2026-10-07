@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia | TECNO 2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../static/css/boots.css">
+</head>
+<body>
+<!-- MENÚ DE NAVEGACIÓN -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">Vitalis</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+        <li class="nav-item"><a class="nav-link active" href="multimedia.html">Multimedia</a></li>
+        <li class="nav-item"><a class="nav-link" href="manual.html">Manual</a></li>
+        <li class="nav-item"><a class="nav-link" href="../index.html#contacto">Contáctenos</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="cuenta" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tu cuenta</a>
+          <ul class="dropdown-menu" aria-labelledby="cuenta">
+            <li><a class="dropdown-item" href="login.html">Iniciar sesión</a></li>
+            <li><a class="dropdown-item" href="registro.html">Registro</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" action="productos.html">
+        <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Buscar">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <h1 class="mb-4">Multimedia</h1>
+  <div class="row g-4">
+    <div class="col-lg-7">
+      <h2 class="h4">Video del proyecto (speech)</h2>
+      <div class="ratio ratio-16x9">
+        <!-- Opción A: video local (guárdalo en static/video/speech.mp4) -->
+        <video controls poster="">
+          <source src="../static/video/speech.mp4" type="video/mp4">
+          Tu navegador no soporta video HTML5.
+        </video>
+      </div>
+      <p class="small text-muted mt-2">Si lo subes a YouTube, reemplaza el bloque &lt;video&gt; por un &lt;iframe&gt; con el enlace de inserción.</p>
+    </div>
+    <div class="col-lg-5">
+      <h2 class="h4">Líneas de producto</h2>
+      <ul class="list-group mb-3">
+        <li class="list-group-item">Cremas tópicas</li>
+        <li class="list-group-item">Medicamentos formulados</li>
+        <li class="list-group-item">Gotas oftálmicas</li>
+      </ul>
+      <h2 class="h4">Pasos para comprar</h2>
+      <ol>
+        <li>Crea tu cuenta.</li>
+        <li>Elige tus productos en el catálogo.</li>
+        <li>Añádelos al carrito y confirma.</li>
+      </ol>
+      <h2 class="h4">Enlaces de interés</h2>
+      <ul>
+        <li><a href="https://vitalislaboratorio.com/" target="_blank" rel="noopener">Sitio oficial de Vitalis</a></li>
+        <li><a href="../index.html#contacto">Contáctenos</a></li>
+        <li><a href="manual.html">Manual de usuario</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- FOOTER -->
+<footer class="bg-dark">
+    <p class="mb-2">&copy; Todos los derechos reservados &middot; Mendieta 2026</p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.threads.com/" target="_blank" rel="noopener" aria-label="Threads"><i class="fa-brands fa-threads"></i></a>
+        <a href="https://x.com/" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-square-x-twitter"></i></a>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
